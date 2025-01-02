@@ -12,7 +12,6 @@ g.transparency = config.ui.transparency
 opt.laststatus = 3 -- global statusline
 opt.showmode = false
 
-opt.clipboard = "unnamedplus"
 opt.cursorline = true
 
 -- Indenting
@@ -30,7 +29,7 @@ opt.mouse = "a"
 -- Numbers
 opt.number = true
 opt.relativenumber = true
-opt.numberwidth = 2
+opt.numberwidth = 1
 opt.ruler = false
 
 -- disable nvim intro
