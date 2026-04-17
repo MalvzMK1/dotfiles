@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaults
+[
+    // 1. FOCAR E ALTERNAR (Toggle)
+    // Abre se estiver fechado, fecha se estiver focado, ou foca se estiver aberto
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // 3. CRIAR NOVO TERMINAL
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalFocus || !terminalFocus"
+    },
+    // 4. MATAR TERMINAL ATUAL
+    {
+        "key": "ctrl+x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
