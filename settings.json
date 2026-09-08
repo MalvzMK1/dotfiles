@@ -18,7 +18,7 @@
                 "d"
             ],
             "after": [],
-            "kommands": [
+            "commands": [
                 "editor.action.revealDefinition"
             ]
         },
